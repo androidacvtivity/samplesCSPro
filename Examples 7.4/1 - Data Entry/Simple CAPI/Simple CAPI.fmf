@@ -12,7 +12,7 @@ File=.\Simple CAPI.dcf
 [Form]
 Name=FORM000
 Label=Roster Form
-QuestionTextHeight=70
+QuestionTextHeight=162
 Level=1
 Size=1668,414
 CapturePos=43,407
