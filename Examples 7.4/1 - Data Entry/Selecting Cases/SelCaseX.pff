@@ -1,0 +1,15 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+
+[Files]
+Application=.\SelCaseX.ent
+InputData=.\Test.dat
+
+[ExternalFiles]
+ENUMERATOR_INFORMATION_DICT=.\Enumerator Information.dat
+OCCINDSEC_DICT=.\OccIndSec.Dat
+OCCUPATION_DICT=.\Occ.dat
+
+[UserFiles]
+FILEENUMINFO=

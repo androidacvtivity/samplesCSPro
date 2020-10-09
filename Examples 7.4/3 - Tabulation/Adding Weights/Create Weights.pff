@@ -1,0 +1,7 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+
+[Files]
+Application=.\Create Weights.ent
+InputData=.\WeightEx.dat

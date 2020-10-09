@@ -1,0 +1,10 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+
+[Files]
+Application=.\Setvalueset example.ent
+InputData=.\test.dat
+
+[ExternalFiles]
+AREA_DICT=.\arealookup.dat

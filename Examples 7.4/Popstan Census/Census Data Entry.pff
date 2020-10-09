@@ -1,0 +1,7 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+
+[Files]
+Application=.\Census Data Entry.ent
+InputData=.\Popstan Census.dat

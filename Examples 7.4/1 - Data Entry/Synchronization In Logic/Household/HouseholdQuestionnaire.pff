@@ -1,0 +1,14 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+Description=Household Questionnaire
+
+[DataEntryInit]
+ShowInApplicationListing=Hidden
+
+[Files]
+Application=.\HouseholdQuestionnaire.ent
+InputData=..\Data\HouseholdQuestionnaire.csdb
+
+[Parameters]
+OnExit=..\Menu\Menu.pff

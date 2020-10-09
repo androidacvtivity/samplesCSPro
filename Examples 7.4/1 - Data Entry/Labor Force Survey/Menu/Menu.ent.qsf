@@ -1,0 +1,79 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.4
+
+[LANGUAGES]
+EN=English
+
+[QUESTION]
+Field=MENU_DICT.CHOOSE_HOUSEHOLD
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.15063}\viewkind4\uc1
+EN=\pard\cf1\fs19 Choose a household:\par
+EN=}
+
+[QUESTION]
+Field=MENU_DICT.HOUSEHOLD_ACTION
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.15063}\viewkind4\uc1
+EN=\pard\cf1\fs19 Household: %SAMPROV%-%SAMDIST%-%SAMDWNO%-%SAMHHNO%\par
+EN=Head: %SAMHNA%\par
+EN=Address: %SAMHA%\par
+EN=Phone: %SAMHCT%\par
+EN=}
+
+[QUESTION]
+Field=MENU_DICT.HOUSEHOLD_FINAL_RESULT
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.15063}\viewkind4\uc1
+EN=\pard\cf1\fs19 Household: %SAMPROV%-%SAMDIST%-%SAMDWNO%-%SAMHHNO%\par
+EN=Head: %SAMHNA%\par
+EN=Address: %SAMHA%\par
+EN=Phone: %SAMHCT%\par
+EN=\par
+EN=Current final result code: %currentFinalResultCode%\par
+EN=\par
+EN=Choose the new final result code:\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=MENU_DICT.INTERVIEWER_MENU
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.15063}\viewkind4\uc1
+EN=\pard\cf1\fs19 You are logged in as interviewer %STAFF_NAME%.\par
+EN=\par
+EN=Please select an option:\par
+EN=}
+
+[QUESTION]
+Field=MENU_DICT.LOGIN
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.15063}\viewkind4\uc1
+EN=\pard\cf1\fs19 Enter staff code to login:\par
+EN=\par
+EN=\i Use 001 for supervisor or 002-005 for interviewer\i0\par
+EN=}
+
+[QUESTION]
+Field=MENU_DICT.SUPERVISOR_MENU
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.15063}\viewkind4\uc1
+EN=\pard\cf1\fs19 You are logged in as supervisor %STAFF_NAME%.\par
+EN=\par
+EN=Please select an option:\par
+EN=}
+
+[QUESTION]
+Field=MENU_DICT.SUPERVISOR_REPORTS
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.15063}\viewkind4\uc1
+EN=\pard\cf1\fs19 Choose a report to display:\par
+EN=}
+

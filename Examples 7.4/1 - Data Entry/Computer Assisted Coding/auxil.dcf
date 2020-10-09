@@ -1,0 +1,55 @@
+﻿[Dictionary]
+Version=CSPro 7.4
+Label=auxil
+Name=AUXIL_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=C3ED33B4F8FA28756AB52ACA356939CFC23E6C33D154B72BA423B18BBE5528B1
+
+[Level]
+Label=auxil questionnaire
+Name=AUXIL_QUEST
+
+[IdItems]
+
+[Item]
+Label=auxil identification
+Name=AUXIL_ID
+Start=1
+Len=1
+
+[Record]
+Label=auxil record
+Name=AUXIL_REC
+RecordTypeValue=''
+RecordLen=29
+
+[Item]
+Label=Coding Type
+Name=AUXILTYPE
+Start=2
+Len=1
+
+[Item]
+Label=Coding Text
+Name=AUXILTXT
+Start=3
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Occupation or Industry Text
+Name=AUXILKEY
+Start=13
+Len=14
+DataType=Alpha
+
+[Item]
+Label=Occupation/Industry Code
+Name=AUXILCODE
+Start=27
+Len=3
+ZeroFill=Yes

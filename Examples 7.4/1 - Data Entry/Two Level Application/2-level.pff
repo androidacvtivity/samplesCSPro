@@ -1,0 +1,7 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+
+[Files]
+Application=.\2-level.ent
+InputData=.\Test.dat

@@ -1,0 +1,64 @@
+﻿[Dictionary]
+Version=CSPro 7.4
+Label=Popstan Census Staff Dictionary
+Name=PSC_STAFF_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=8F029E977C6DBFE6BC28DCD74FB6109CBB946E478B1789F4ADCC4DEAB160DFE6
+
+[Level]
+Label=Staff Level
+Name=STAFF_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Staff Code
+Name=STAFF_CODE
+Start=2
+Len=36
+DataType=Alpha
+
+[Record]
+Label=Staff Record
+Name=STAFF_REC
+RecordTypeValue='1'
+RecordLen=157
+
+[Item]
+Label=Staff Name
+Name=STAFF_NAME
+Start=38
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Pin Code
+Name=PIN_CODE
+Start=88
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=Device ID
+Name=DEVICE_ID
+Start=92
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Supervisor Staff Code
+Name=SUPERVISOR_STAFF_CODE
+Start=112
+Len=36
+DataType=Alpha
+
+[Item]
+Label=Time Created Account
+Name=TIME_CREATED_ACCOUNT
+Start=148
+Len=10
+ZeroFill=Yes

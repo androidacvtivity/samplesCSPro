@@ -1,0 +1,40 @@
+﻿{ Setvalueset example program.
+  Uses the setvalueset command to show a dialog with the valid
+  provinces and the valid districts for the province that was entered.
+  The district value set will differ based on the province chosen
+  (each province has a different set of districts).  For district,
+  we set the value set dynamically after the province code is entered. 
+  We use a lookup file that lists the codes and names for each district
+  in each province.  This lookup file is easily created from the area names
+  file (by deleting all but the lines that have district names and codes,
+  removing the "=" signs and makeing sure the codes and names are fixed
+  width).  In the postproc of province we lookup the province that was
+  entered in this lookup file to get the list of district names and
+  codes which we then set as the value set for district.  This
+  value set then gets shown when the user reaches the district field. }
+
+PROC GLOBAL
+
+PROC CENSUS_DE
+
+
+PROC PROVINCE
+
+	{ use lookup file to load all districts for province entered }
+	PROVINCE_CODE = PROVINCE;
+	if loadcase(AREA_DICT, PROVINCE_CODE) = 0 then
+		errmsg("Invalid province, please reenter");
+		reenter PROVINCE;
+	endif;
+
+	{ Copy the district codes and names in the dynamic value set.
+	  Note that the AREA_REC record repeats (max occurences of 99) so when we
+	  load the case for a given province, we get one occurence of AREA_REC
+	  for each district in the given province.  }
+	valueset districtValueSet;
+	do varying numeric i = 1 until i > count(AREA_DICT.AREA_REC)
+		districtValueSet.add(DISTRICT_NAME(i), DISTRICT_CODE(i));
+	enddo;
+
+	{ call setvalueset using the value set that contain district codes and names }
+	setvalueset(DISTRICT, districtValueSet);

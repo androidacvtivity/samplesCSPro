@@ -1,0 +1,14 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+
+[Files]
+Application=.\CheckCode.ent
+InputData=.\test.dat
+
+[ExternalFiles]
+ACTIVITY_DICT=.\industry.dat
+AUXIL_DICT=.\auxil.dat
+INDUSTRY_DICT=.\Ind.dat
+IND_DICT=.\Industry.dcf
+OCCUPATION_DICT=.\Occ.dat

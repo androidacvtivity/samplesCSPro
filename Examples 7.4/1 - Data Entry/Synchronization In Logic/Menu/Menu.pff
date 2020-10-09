@@ -1,0 +1,14 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+Description=Synchronization in Logic
+
+[DataEntryInit]
+StartMode=Add
+
+[Files]
+Application=.\Menu.ent
+InputData=|type=None
+
+[ExternalFiles]
+HOUSEHOLDQUESTIONNAIRE_DICT=..\Data\HouseholdQuestionnaire.csdb

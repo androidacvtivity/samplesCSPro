@@ -1,0 +1,43 @@
+﻿[Dictionary]
+Version=CSPro 7.4
+Label=SelCaseX
+Name=SELCASEX_DICT
+RecordTypeStart=0
+RecordTypeLen=0
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+SecurityOptions=4DD967FBFF671646E7696688A3FCA239CDB757DB1D9DDF3C52EED58B72668FB3
+
+[Level]
+Label=SelCaseX questionnaire
+Name=SELCASEX_QUEST
+
+[IdItems]
+
+[Item]
+Label=Dummy ID
+Name=DUMMY_ID
+Start=1
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=Demo SelCase
+Name=DEMO_SELCASE
+RecordTypeValue=''
+RecordLen=22
+
+[Item]
+Label=Option
+Name=OPTION
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Data_Search
+Name=DATA_SEARCH
+Start=3
+Len=20
+DataType=Alpha

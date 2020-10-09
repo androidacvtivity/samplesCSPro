@@ -1,0 +1,6 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Deploy
+
+[Files]
+Application=.\DeployPopstanLFS.csds

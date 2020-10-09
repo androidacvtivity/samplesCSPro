@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.4
+AppType=Entry
+Description=Listing with map
+
+[Files]
+Application=.\Listing.ent
+InputData=.\Structures.csdb
